@@ -583,26 +583,29 @@ aside .carstenlogo{
     float: left;
     width: 60%;
     margin-left: 5%;
-    height: 2000px;
+    height: 1500px;
     background-color: #ffffff;
     margin-top: 30px;
-    
-    
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;  
 }
 
 .artikel img{
     width: 100%
 }
 
-.druer{
-    background-image: url('images/barrels-basement-beer-1267359.jpg');
-    height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 90%; 
+.date{
+    float: left;
+    width: 98%;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 12pt;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.5;
+    opacity: 0.7;
+    text-align: right;
 }
-
 .rubrik{
     float: left;
     width: 90%;
@@ -611,8 +614,8 @@ aside .carstenlogo{
     font-size: 50pt;
     font-weight: 600;
     margin-left: 3vw;
-    margin-top: 30px;
-    opacity: 0.6;
+    margin-top: 20px;
+    
 }
 
 .underrubrik{
@@ -624,7 +627,8 @@ aside .carstenlogo{
     font-weight: 600;
     margin-left: 3vw;
     margin-top: 10px;
-    line-height: 1.5;
+    line-height: 1.6;
+    opacity: 0.7;
 }
 
 .text{
@@ -636,7 +640,7 @@ aside .carstenlogo{
     font-weight: 300;
     margin-left: 3vw;
     margin-top: 20px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .citat{
@@ -646,17 +650,17 @@ aside .carstenlogo{
     color: #ef7830;
     font-size: 12pt;
     font-weight: 300;
-    margin-left: 4vw;
+    margin-left: 6vw;
     margin-top: 20px;
-    line-height: 1.5;
+    line-height: 1.6;
     font-style: italic;
 }
 
 .linje{
     float: left;
     background-color: #534741;
-    width: 80%;
-    height: 2px;
+    width: 90%;
+    height: 1px;
     margin-top: 20px;
     margin-left: 3vw;
     opacity: 0.6;
@@ -665,14 +669,50 @@ aside .carstenlogo{
 .pictures{
     float: left;
     width: 30%;
-    background-color: #534741;
-    height: 2000px;
+    background-color: #e3e3db;
+    height: 1500px;
     margin-top: 30px;
     margin-left: 20px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;
 }
 
 .pictures img{
 
     width: 100%
     
+}
+
+.imgtext{
+    font-family: "avenir next";
+    color: #534741;
+    margin-left: 30px;
+    font-size: 10pt;
+    opacity: 0.7;
+}
+
+.present{
+    font-family: "avenir next";
+    color: #534741;
+    margin-left: 30px;
+    font-size: 20pt;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.infotext{
+    width: 88%;
+    font-family: "avenir next";
+    color: #534741;
+    margin-left: 30px;
+    font-size: 12pt;
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.break{
+    height: 10px;
+    float: left;
+    width: 100%;
 }
