@@ -137,7 +137,7 @@ li a:hover{
     box-sizing: border-box;
     width: 91%;
     height: 500px;
-    background-color: #6E6557;
+    background-color: #e3e3db;
     margin-left: 4.5vw;
     margin-top: 30px;
     box-shadow: 0px 5px 20px #3b3b3b;
@@ -148,22 +148,24 @@ li a:hover{
     height: 500px
 }
 
-.column3 p{
+.column3 .artikelhead{
     float: left;
     font-family: "avenir next";
     font-size: 40pt;
     font-weight: 500;
-    color: #ffffff;
+    color: #534741;
     padding-left: 5vw;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    opacity: 0.6;
 }
 
 .column3 span{
     border-top-style: solid;
-    border-top-color: #ffffff;
+    border-top-color: #534741;
     border-top-width: thin;
     border-bottom-style: solid;
-    border-bottom-color: #ffffff;
+    border-bottom-color: #534741;
     border-bottom-width:thin;
 }
 
@@ -172,7 +174,7 @@ li a:hover{
     font-family: "avenir next";
     font-size: 24pt;
     font-weight: 300;
-    color: #ffffff;
+    color: #534741;
     padding-left: 5vw;
     font-style: italic;
     
@@ -181,13 +183,13 @@ li a:hover{
 .column3 .caption{
     float: left;
     font-family: "avenir next";
-    font-size: 18pt;
-    font-weight: 200;
-    color: #ffffff;
+    font-size: 14pt;
+    font-weight: 300;
+    color: #534741;
     padding-left: 5vw;
     width: 40%;
     margin-left: 0px;
-    margin-top: 20px
+    margin-top: 30px
 }
 
 .buttonfrontpage{
@@ -373,6 +375,7 @@ aside .carstenlogo{
 }
 
 .coqauvin img{
+    width: 25%;
     float: left;
     height: 200px;
 }
@@ -428,7 +431,7 @@ aside .carstenlogo{
 .opskrift{
     width: 100%;
     background-color: #E3E3DB;
-    height: 150vh;
+    height: 155vh;
     margin-bottom: 20px;
     
 }
@@ -436,6 +439,15 @@ aside .carstenlogo{
   
 .parallax{
     background-image: url('images/coq%20au%20vin.jpeg');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 92%; 
+}
+
+.parallax2{
+    background-image: url('images/pearsinwine.jpg');
     height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -486,6 +498,15 @@ aside .carstenlogo{
     font-family: "avenir next";
     color: #534741;
     font-size: 14pt
+}
+
+.head2{
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 12pt
 }
 
 .ingredients ul li{
@@ -715,4 +736,117 @@ aside .carstenlogo{
     height: 10px;
     float: left;
     width: 100%;
+}
+
+/* ARTIKLER SAMLING*/
+
+
+.artikelside{
+    margin-left: 5vw;
+    margin-top: 30px;
+    float:left;
+    width: 29%;
+    background-color: #E3E3DB;
+    height: 800px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    box-sizing: border-box; 
+    margin-bottom: 80px;
+}
+
+.artikelside2{
+    margin-top: 30px;
+    margin-left: 2vw;
+    float:left;
+    width: 29%;
+    background-color: #E3E3DB;
+    height: 800px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+
+
+.artikelside img{
+    width: 100%;
+}
+
+.artikelside .headline2{
+    width: 90%;
+    float: left;
+    font-family: "avenir next";
+    font-size: 22pt;
+    font-weight: 500;
+    color: #534741;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.artikelside .caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 13pt;
+    font-weight: 300;
+    color: #534741;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px
+}
+.artikelside2 img{
+    width: 100%;
+}
+
+.artikelside2 .headline2{
+    width: 90%;
+    float: left;
+    font-family: "avenir next";
+    font-size: 22pt;
+    font-weight: 500;
+    color: #534741;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.artikelside2 .caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 13pt;
+    font-weight: 300;
+    color: #534741;
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 20px
+}
+
+
+.buttonartikel{
+    box-sizing: border-box;
+    float:right;
+    width: 150px;
+    height: 50px;
+    background-color: #ef7830;
+    font-family: "avenir next";
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 40px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    border-style: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.buttonartikel:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.dato{
+    font-family: "avenir next";
+    font-size: 10pt;
+    padding-right: 20px;
+    padding-top: 10px;
+    opacity: 0.5;
+    color: #534741;
+    float: right
 }
