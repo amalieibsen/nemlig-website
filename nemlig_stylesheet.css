@@ -1,4 +1,4 @@
-
+/* BASIC */
 * {
     margin: 0px;
     padding: 0px;
@@ -11,6 +11,8 @@ body{
     height: auto;
 
 }
+
+/*HEADER + NAVIGATION */
 
 .logoheader{
     width: 100%;
@@ -70,6 +72,8 @@ li a:hover{
     display: table;
     clear: both;
 }
+
+/* NEMLIG_HJEM */
 
 .column1{
     float: left;
@@ -253,56 +257,9 @@ li a:hover{
     margin-bottom: 30px;
 }
 
-footer{
-    float: left;
-    width: 100%;
-    height: 150px;
-    background-color: #ffffff;
-    opacity: 
-}
 
-.footerleft{
-    width: 33%;
-    float: left;
-    box-sizing: border-box;
-}
 
-.footerleft p{
-    font-family: "avenir next";
-    padding-left: 4.5vw;
-    padding-top: 20px;
-    color: #534741;
-    font-weight: 500;
-}
-
-.footermiddle{
-    width: 33%;
-    float: left;
-    box-sizing: border-box;
-}
-
-.footerright p{
-    font-family: "avenir next";
-    margin-right: 4.5vw;
-    padding-top: 20px;
-    color: #534741;
-    text-align: right;
-    font-weight: 500;
-}
-
-.footerright{
-    width: 33%;
-    float: left;
-    box-sizing: border-box;
-}
-
-.footermiddle img{
-    width: 20%;
-    padding-top: 20px;
-    padding-left: 40%
-}
-
-/*OPSKRIFT SIDE*/
+/*OPSKRIFT UDVALG SIDE*/
 
 aside{
     float: left;
@@ -428,6 +385,8 @@ aside .carstenlogo{
     margin-top: 15px;
 }
 
+/* OPSKRIFT INKL. ANBEFALINGER */
+
 .opskrift{
     width: 100%;
     background-color: #E3E3DB;
@@ -552,11 +511,25 @@ aside .carstenlogo{
     opacity: 0.6;
     
 }
+
+.whitebox{
+    float: left;
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    padding-top: 50px
+    
+    
+}
+    
+
+    
 .anbefalinger img{
     width: 100%
 }
 
-.anbefalinger .navn{
+.navn{
+    float: left;
     font-family: "avenir next";
     font-size: 12pt;
     color: #524741;
@@ -849,4 +822,57 @@ aside .carstenlogo{
     opacity: 0.5;
     color: #534741;
     float: right
+}
+
+
+
+/* FOOTER */
+
+footer{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    opacity: 
+}
+
+.footerleft{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footerleft p{
+    font-family: "avenir next";
+    padding-left: 4.5vw;
+    padding-top: 20px;
+    color: #534741;
+    font-weight: 500;
+}
+
+.footermiddle{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footerright p{
+    font-family: "avenir next";
+    margin-right: 4.5vw;
+    padding-top: 20px;
+    color: #534741;
+    text-align: right;
+    font-weight: 500;
+}
+
+.footerright{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footermiddle img{
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 40%
 }
