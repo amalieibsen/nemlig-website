@@ -1,0 +1,913 @@
+/* BASIC */
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+
+body{
+    background-size: cover;
+    background-image: url(../images/baggrund.jpg);
+    height: auto;
+
+}
+
+/*HEADER + NAVIGATION */
+
+.logoheader{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/headerbackground.png);
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.logo{
+    display: block;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 40px;
+    box-shadow: 0px 5px 20px #3b3b3b; 
+    
+}
+
+li{
+    display: inline;
+    float: left;
+    margin-top: 10px;
+}
+
+li a{
+    font-family: "avenir next";
+    color: #ef7830;
+    text-decoration: none; 
+    margin-left: 4.5vw;
+    font-weight: 500;
+}
+
+li a:hover{
+    border-bottom: solid 6pt;
+    border-bottom: solid 6pt rgba(239,120,48,0.3);
+    
+}
+
+.active{
+    border-bottom: solid 6pt;
+        
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* NEMLIG_HJEM */
+
+.column1{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.column1 img{
+    width: 90%;
+    height: 480px;
+    margin-left: 4.5vw;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    transition: transform .2s;
+}
+
+.column1 img:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+}
+
+.column1 img:hover{
+    cursor: pointer;
+}
+
+.column2{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.promofield{
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 0.5vw;
+    width: 90%;
+    height: 480px;
+    background-color: #E3E3DB;
+    box-shadow: 0px 5px 20px #3b3b3b;
+}
+
+.promofield img{
+    width: 65%;
+    margin-left: 120px;
+    margin-top: 30px;
+    transition: transform .2s;
+}
+
+.promofield img:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+    
+}
+
+.column3{
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.henribuglioni{
+    box-sizing: border-box;
+    width: 91%;
+    height: 500px;
+    background-color: #e3e3db;
+    margin-left: 4.5vw;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+}
+
+.column3 img{
+    float: left;
+    height: 500px
+}
+
+.column3 .artikelhead{
+    float: left;
+    font-family: "avenir next";
+    font-size: 40pt;
+    font-weight: 500;
+    color: #534741;
+    padding-left: 5vw;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+
+.column3 span{
+    border-top-style: solid;
+    border-top-color: #534741;
+    border-top-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #534741;
+    border-bottom-width:thin;
+}
+
+.column3 .quote{
+    float: left;
+    font-family: "avenir next";
+    font-size: 24pt;
+    font-weight: 300;
+    color: #534741;
+    padding-left: 5vw;
+    font-style: italic;
+    
+}
+
+.column3 .caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 14pt;
+    font-weight: 300;
+    color: #534741;
+    padding-left: 5vw;
+    width: 40%;
+    margin-left: 0px;
+    margin-top: 30px
+}
+
+.buttonfrontpage{
+    box-sizing: border-box;
+    float:right;
+    width: 150px;
+    height: 50px;
+    background-color: #ef7830;
+    font-family: "avenir next";
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 15px;
+    margin-top: 100px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    border-style: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.buttonfrontpage:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.column4{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.column4 img{
+    width: 90%;
+    height: 500px;
+    margin-left: 4.5vw;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;
+    transition: transform .2s;
+}
+
+.column4 img:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.column5{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    
+}
+
+.column5 img{
+    width: 90%;
+    height: 500px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-left: 0.5vw;
+    margin-bottom: 30px;
+}
+
+
+
+/*OPSKRIFT UDVALG SIDE*/
+
+aside{
+    float: left;
+    width: 15%;
+    background-color: #E3E3DB;
+    height: 800px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 4.5vw;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    
+}
+
+main{
+    float: left;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 1vw;
+}
+
+aside .carsten{
+    width: 100%;
+    
+    
+}
+
+.overskrift{
+    font-family: "avenir next";
+    margin-left: 10pt;
+    font-size: 14pt;
+    color: #ef7830;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+
+.titler{
+    font-family: "avenir next";
+    margin-left: 10pt;
+    font-size: 10pt;
+    color: #6e6557;
+    font-weight: 300;
+    margin-right: 50px;
+    margin-top:10px;
+}
+
+.beskrivelse{
+    font-family: "avenir next";
+    margin-left: 10pt;
+    font-size: 12pt;
+    color: #6e6557;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+aside .carstenlogo{
+    float: left;
+    width: 20%;
+    margin-left: 10pt;
+    margin-top: 60px;
+
+}
+
+.coqauvin{
+    width: 100%;
+    background-color: #E3E3DB;
+    height: 200px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+}
+
+.coqauvin img{
+    width: 25%;
+    float: left;
+    height: 200px;
+}
+
+.coqauvin .headline{
+    float: left;
+    font-family: "avenir next";
+    font-size: 24pt;
+    font-weight: 500;
+    color: #534741;
+    padding-left: 3vw;
+    margin-top: 30px;
+}
+
+.coqauvin .caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 13pt;
+    font-weight: 300;
+    color: #534741;
+    padding-left: 3vw;
+    width: 50%;
+    margin-top: 20px
+}
+
+.coqauvin2{
+    width: 100%;
+    background-color: #E3E3DB;
+    height: 200px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 50px
+}
+
+.coqauvin2 img{
+    width: 25%;
+    float: left;
+    height: 200px;
+}
+
+.coqauvin2 .headline{
+    float: left;
+    font-family: "avenir next";
+    font-size: 24pt;
+    font-weight: 500;
+    color: #534741;
+    padding-left: 3vw;
+    margin-top: 30px;
+}
+
+.coqauvin2 .caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 13pt;
+    font-weight: 300;
+    color: #534741;
+    padding-left: 3vw;
+    width: 50%;
+    margin-top: 20px
+}
+
+.buttonrecipe{
+    box-sizing: border-box;
+    float:right;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    background-color: #ef7830;
+    font-family: "avenir next";
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 40px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    border-style: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.buttonrecipe:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.background2 {
+    margin-top: 30px;
+}
+
+
+/* OPSKRIFT INKL. ANBEFALINGER */
+
+.opskrift{
+    width: 100%;
+    background-color: #E3E3DB;
+    height: 170vh;
+    margin-bottom: 20px;
+    
+}
+
+  
+.parallax{
+    background-image: url('../images/coq%20au%20vin.jpeg');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 92%; 
+}
+
+.parallax2{
+    background-image: url('../images/pearsinwine.png');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 92%; 
+}
+
+.headline{
+    font-family: "avenir next";
+    font-size: 50pt;
+    font-weight: 600;
+    color: #534741;
+    margin-left: 3vw;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+.caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 14pt;
+    font-weight: 300;
+    color: #534741;
+    margin-left: 3vw;
+    width: 60%;
+}
+
+.linje{
+    float: left;
+    background-color: #534741;
+    width: 92%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 3vw;
+    opacity: 0.6;
+}
+
+.ingredients{
+    width: 40%;
+    margin-left: 3vw;
+    float: left;
+    margin-top: 20px;
+}
+
+.head{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 14pt
+}
+
+.head2{
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 12pt
+}
+
+.ingredients ul li{
+    clear: both;
+    display: block;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "avenir next";
+    color: #534741; 
+    
+}
+
+.howto{
+    width: 45%;
+    float: left;
+    margin-top: 20px;
+    color: #534741
+}
+
+.howto p{
+    font-family: "avenir next";
+    line-height: 1.7;
+    
+}
+
+.anbefalinger{
+    float: left;
+    width: 30%;
+    height: 850px;
+    background-color: #e3e3db;
+    margin-bottom: 30px;
+    margin-right: 2%
+}
+
+.anbefalinger .ca{
+    font-family: "avenir next";
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 22pt;
+    font-weight: 600;
+    color: #534741;
+    margin-bottom: 10px;
+    opacity: 0.6;
+    
+}
+
+.whitebox{
+    float: left;
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    padding-top: 50px
+}
+
+.anbefalinger img{
+    width: 100%
+}
+
+.navn{
+    float: left;
+    font-family: "avenir next";
+    font-size: 12pt;
+    color: #524741;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.anbefalinger .pris{
+    font-family: "avenir next";
+    font-size: 28pt;
+    color: #534741;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 40%;
+}
+
+.buyhere{
+    box-sizing: border-box;
+    float:right;
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    background-color: #ef7830;
+    font-family: "avenir next";
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: 500;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    border-style: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.buyhere:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+/* ARTIKEL */
+
+.artikel{
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    height: 1500px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;  
+}
+
+.artikel img{
+    width: 100%
+}
+
+.date{
+    float: left;
+    width: 98%;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 12pt;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.5;
+    opacity: 0.7;
+    text-align: right;
+}
+.rubrik{
+    float: left;
+    width: 90%;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 50pt;
+    font-weight: 600;
+    margin-left: 3vw;
+    margin-top: 20px;
+    
+}
+
+.underrubrik{
+    float: left;
+    width: 80%;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 12pt;
+    font-weight: 600;
+    margin-left: 3vw;
+    margin-top: 10px;
+    line-height: 1.6;
+    opacity: 0.7;
+}
+
+.text{
+    float: left;
+    width: 80%;
+    font-family: "avenir next";
+    color: #534741;
+    font-size: 12pt;
+    font-weight: 300;
+    margin-left: 3vw;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.citat{
+    float: left;
+    width: 60%;
+    font-family: "avenir next";
+    color: #ef7830;
+    font-size: 12pt;
+    font-weight: 300;
+    margin-left: 6vw;
+    margin-top: 20px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.linje{
+    float: left;
+    background-color: #534741;
+    width: 90%;
+    height: 1px;
+    margin-top: 20px;
+    margin-left: 3vw;
+    opacity: 0.6;
+}
+
+.pictures{
+    float: left;
+    width: 30%;
+    background-color: #e3e3db;
+    height: 1500px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;
+}
+
+.pictures img{
+
+    width: 100%
+    
+}
+
+.imgtext{
+    font-family: "avenir next";
+    color: #534741;
+    margin-left: 30px;
+    font-size: 10pt;
+    opacity: 0.7;
+}
+
+.present{
+    font-family: "avenir next";
+    color: #534741;
+    margin-left: 30px;
+    font-size: 20pt;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.infotext{
+    width: 88%;
+    font-family: "avenir next";
+    color: #534741;
+    margin-left: 30px;
+    font-size: 12pt;
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.break{
+    height: 10px;
+    float: left;
+    width: 100%;
+}
+
+/* ARTIKLER SAMLING*/
+
+
+.artikelside{
+    margin-left: 5vw;
+    margin-top: 30px;
+    float:left;
+    width: 29%;
+    background-color: #E3E3DB;
+    height: 800px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    box-sizing: border-box; 
+    margin-bottom: 30px;
+}
+
+.artikelside2{
+    margin-top: 30px;
+    margin-left: 2vw;
+    float:left;
+    width: 29%;
+    background-color: #E3E3DB;
+    height: 800px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+
+.artikelside img{
+    width: 100%;
+}
+
+.artikelside .headline2{
+    width: 90%;
+    float: left;
+    font-family: "avenir next";
+    font-size: 22pt;
+    font-weight: 500;
+    color: #534741;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.artikelside .caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 13pt;
+    font-weight: 300;
+    color: #534741;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px
+}
+.artikelside2 img{
+    width: 100%;
+}
+
+.artikelside2 .headline2{
+    width: 90%;
+    float: left;
+    font-family: "avenir next";
+    font-size: 22pt;
+    font-weight: 500;
+    color: #534741;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.artikelside2 .caption{
+    float: left;
+    font-family: "avenir next";
+    font-size: 13pt;
+    font-weight: 300;
+    color: #534741;
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 20px
+}
+
+
+.buttonartikel{
+    box-sizing: border-box;
+    float:right;
+    width: 150px;
+    height: 50px;
+    background-color: #ef7830;
+    font-family: "avenir next";
+    font-size: 12pt;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 40px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    border-style: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.buttonartikel:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.dato{
+    font-family: "avenir next";
+    font-size: 10pt;
+    padding-right: 20px;
+    padding-top: 10px;
+    opacity: 0.5;
+    color: #534741;
+    float: right
+}
+
+
+
+/* FOOTER */
+
+footer{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.footerleft{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footerleft p{
+    font-family: "avenir next";
+    padding-left: 4.5vw;
+    padding-top: 20px;
+    color: #534741;
+    font-weight: 500;
+}
+
+.footermiddle{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footerright p{
+    font-family: "avenir next";
+    margin-right: 4.5vw;
+    padding-top: 20px;
+    color: #534741;
+    text-align: right;
+    font-weight: 500;
+}
+
+.footerright{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footermiddle img{
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 40%
+}
