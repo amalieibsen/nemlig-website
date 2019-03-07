@@ -212,6 +212,7 @@ li a:hover{
     border-style: none;
     cursor: pointer;
     transition: transform .2s;
+    text-decoration: none;
 }
 
 .buttonfrontpage:hover{
@@ -410,6 +411,7 @@ aside .carstenlogo{
     border-style: none;
     cursor: pointer;
     transition: transform .2s;
+    text-decoration: none;
 }
 
 .buttonrecipe:hover{
@@ -531,11 +533,11 @@ aside .carstenlogo{
 
 .anbefalinger{
     float: left;
-    width: 30%;
+    width: 32.3%;
     height: 850px;
     background-color: #e3e3db;
     margin-bottom: 30px;
-    margin-right: 2%
+    margin-right: 1%
 }
 
 .anbefalinger .ca{
@@ -598,6 +600,7 @@ aside .carstenlogo{
     border-style: none;
     cursor: pointer;
     transition: transform .2s;
+    text-decoration: none;
 }
 
 .buyhere:hover{
@@ -620,6 +623,37 @@ aside .carstenlogo{
 }
 
 .artikel img{
+    width: 100%
+}
+
+
+.artikellong{
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    height: 1700px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;  
+}
+
+.artikellong img{
+    width: 100%
+}
+
+.artikelshort{
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    height: 800px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;  
+}
+
+.artikelshort img{
     width: 100%
 }
 
@@ -707,6 +741,23 @@ aside .carstenlogo{
 }
 
 .pictures img{
+
+    width: 100%
+    
+}
+
+.picturesshort{
+    float: left;
+    width: 30%;
+    height: 800px;
+    background-color: #e3e3db;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0px 5px 20px #3b3b3b;
+    margin-bottom: 30px;
+}
+
+.picturesshort img{
 
     width: 100%
     
@@ -842,6 +893,7 @@ aside .carstenlogo{
     border-style: none;
     cursor: pointer;
     transition: transform .2s;
+    text-decoration: none;
 }
 
 .buttonartikel:hover{
